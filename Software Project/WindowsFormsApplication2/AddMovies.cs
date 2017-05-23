@@ -29,7 +29,7 @@ namespace WindowsFormsApplication2
             }
             if (textBox2.Text == " ")
             {
-                MessageBox.Show("Please enter date of the movie");
+                MessageBox.Show("Please enter time of the movie");
                 return;
             }
 
@@ -70,7 +70,7 @@ namespace WindowsFormsApplication2
             }
             if (textBox5.Text == " ")
             {
-                MessageBox.Show("Please enter date of the movie");
+                MessageBox.Show("Please enter time of the movie");
                 return;
             }
             try
@@ -105,7 +105,7 @@ namespace WindowsFormsApplication2
             }
             if (textBox8.Text == " ")
             {
-                MessageBox.Show("Please enter date of the movie");
+                MessageBox.Show("Please enter time of the movie");
                 return;
             }
             try
@@ -139,7 +139,7 @@ namespace WindowsFormsApplication2
             }
             if (textBox2.Text == " ")
             {
-                MessageBox.Show("Please enter date of the movie");
+                MessageBox.Show("Please enter time of the movie");
                 return;
             }
 
