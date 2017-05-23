@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+//Haris Aljovic part
 namespace WindowsFormsApplication2
 {
     public partial class Form1 : Form
@@ -65,6 +65,7 @@ namespace WindowsFormsApplication2
         {
             AddMovies add = new AddMovies();
             add.ShowDialog();
+            this.Hide();
             updateButton();
         }
 
@@ -72,6 +73,7 @@ namespace WindowsFormsApplication2
         {
             TheaterView1st view = new TheaterView1st();
             view.ShowDialog();
+            this.Hide();
             updateButton();
         }
 
@@ -79,6 +81,7 @@ namespace WindowsFormsApplication2
         {
             TheaterView2nd view = new TheaterView2nd();
             view.ShowDialog();
+            this.Hide();
             updateButton();
         }
 
@@ -86,6 +89,7 @@ namespace WindowsFormsApplication2
         {
             TheaterView3rd view = new TheaterView3rd();
             view.ShowDialog();
+            this.Hide();
             updateButton();
         }
 
@@ -93,6 +97,7 @@ namespace WindowsFormsApplication2
         {
             TheaterView4th view = new TheaterView4th();
             view.ShowDialog();
+            this.Hide();
             updateButton();
         }
 
