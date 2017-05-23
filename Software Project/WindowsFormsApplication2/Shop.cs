@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-
+//Kenan Aljovic part
 namespace WindowsFormsApplication2
 {
     public partial class Shop : Form
@@ -277,7 +277,7 @@ namespace WindowsFormsApplication2
                 MessageBox.Show("Save Data");
                 while (MyReader2.Read())
                 {
-                    button5.Text = ((MyReader2["Id"].ToString() + " " + (MyReader2["ProductName"].ToString() + " " + MyReader2["Price"].ToString())));
+                    button5.Text = ((MyReader2["ProductName"].ToString() + " " + MyReader2["Price"].ToString())));
                     button4.Text = ((MyReader2["ProductName"].ToString() + " " + MyReader2["Price"].ToString()));
                     button21.Text = ((MyReader2["ProductName"].ToString() + " " + MyReader2["Price"].ToString()));
                     button27.Text = ((MyReader2["ProductName"].ToString() + " " + MyReader2["Price"].ToString()));
